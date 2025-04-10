@@ -1,0 +1,10 @@
+from student import Student
+
+Johnny = Student("Johnny","Silverhand","2077",10)
+print(Johnny)
+
+Student.greeting(Johnny)
+
+Student.take_exam(Johnny)
+
+print(Student.get_energy_level(Johnny))
